@@ -19,3 +19,7 @@ if img_file_buffer is not None:
     # Should output shape: (height, width, channels)
     st.write(img_array.shape)
 st.text("PIL")
+
+file=open('test/test.txt','r')
+for i in file:
+    st.text(i)
