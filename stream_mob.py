@@ -17,4 +17,4 @@ if img_file_buffer is not None:
     # Should output shape: (height, width, channels)
     st.write(cv2_img.shape)
     
- st.text("opencv")
+st.text("opencv")
